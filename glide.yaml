@@ -1,6 +1,7 @@
 package: github.com/krnkl/testing-open-api
 import:
-- package: github.com/h2non/baloo
+- package: github.com/h2non/baloo/assert
   version: ^v2.0.0
 - package: github.com/gorilla/mux
 - package: github.com/gorilla/context
+- package: github.com/go-openapi/loads
