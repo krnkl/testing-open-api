@@ -1,0 +1,10 @@
+hash: 3764bbbe38c54631035a44f539d9d8284518af7f5d64a0007bf33e5d402a3007
+updated: 2017-10-24T13:59:36.599318358+02:00
+imports:
+- name: github.com/gorilla/context
+  version: 08b5f424b9271eedf6f9f0ce86cb9396ed337a42
+- name: github.com/gorilla/mux
+  version: 24fca303ac6da784b9e8269f724ddeb0b2eea5e7
+- name: github.com/h2non/baloo
+  version: f7e5e598d76ed91dd8fa4170363e082170d2dd93
+testImports: []

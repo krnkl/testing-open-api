@@ -1,0 +1,6 @@
+package: github.com/krnkl/testing-open-api
+import:
+- package: github.com/h2non/baloo
+  version: ^v2.0.0
+- package: github.com/gorilla/mux
+- package: github.com/gorilla/context
