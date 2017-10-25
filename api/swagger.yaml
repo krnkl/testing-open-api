@@ -647,6 +647,8 @@ definitions:
         description: User Status
     xml:
       name: User
+    required:
+    - username
   Tag:
     type: object
     properties:

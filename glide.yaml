@@ -1,7 +1,13 @@
 package: github.com/krnkl/testing-open-api
 import:
-- package: github.com/h2non/baloo/assert
-  version: ^v2.0.0
 - package: github.com/gorilla/mux
 - package: github.com/gorilla/context
+testImport:
+- package: github.com/h2non/baloo/assert
+  version: ^v2.0.0
 - package: github.com/go-openapi/loads
+- package: github.com/go-openapi/validate
+- package: github.com/go-openapi/analysis
+- package: github.com/go-openapi/runtime
+- package: gopkg.in/yaml.v2
+- package: github.com/stretchr/testify
